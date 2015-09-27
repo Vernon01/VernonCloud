@@ -1,0 +1,2731 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 10 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Command_line_suite">
+              <span class="suite-name border-failed">Command line suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Command_line_suite">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Command_line_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Command_line_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Command_line_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Command_line_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Command_line_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Command_line_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">60 methods, 10 failed,  1 skipped,  49 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods failed suite-Command_line_suite"> (hide)</a> <!-- hide-methods failed suite-Command_line_suite -->
+                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods failed suite-Command_line_suite"> (show)</a> <!-- show-methods failed suite-Command_line_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Command_line_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="ReviewAndInformation.Services.movieServiceTest" hash-for-method="testCreate">testCreate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="ReviewAndInformation.Services.dangerPlacesServiceTest" hash-for-method="testGetCityInfo">testGetCityInfo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="ReviewAndInformation.Services.cityInfoServiceTest" hash-for-method="testGetCityInfo">testGetCityInfo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="ReviewAndInformation.Services.musicTypeServiceTest" hash-for-method="testGetCityInfo">testGetCityInfo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="ReviewAndInformation.Services.recordLabelServiceTest" hash-for-method="testGetCityInfo">testGetCityInfo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="ReviewAndInformation.Services.placeMovieSetServiceTest" hash-for-method="testGetCityInfo">testGetCityInfo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="ReviewAndInformation.Services.directorServiceTest" hash-for-method="testGetCityInfo">testGetCityInfo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="ReviewAndInformation.Services.singerServiceTest" hash-for-method="testGetCityInfo">testGetCityInfo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="ReviewAndInformation.Services.GoToPlacesServiceTest" hash-for-method="testGetCityInfo">testGetCityInfo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="ReviewAndInformation.Services.producerServiceTest" hash-for-method="testGetCityInfo">testGetCityInfo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Command_line_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods skipped suite-Command_line_suite"> (hide)</a> <!-- hide-methods skipped suite-Command_line_suite -->
+                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods skipped suite-Command_line_suite"> (show)</a> <!-- show-methods skipped suite-Command_line_suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Command_line_suite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="ReviewAndInformation.Services.movieServiceTest" hash-for-method="testGetCityInfo">testGetCityInfo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Command_line_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods passed suite-Command_line_suite"> (hide)</a> <!-- hide-methods passed suite-Command_line_suite -->
+                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods passed suite-Command_line_suite"> (show)</a> <!-- show-methods passed suite-Command_line_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Command_line_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="ReviewAndInformation.Respository.recordLabelRepoTest" hash-for-method="testCreate">testCreate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="ReviewAndInformation.Respository.producerRepoTest" hash-for-method="testCreate">testCreate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="ReviewAndInformation.Services.placeMovieSetServiceTest" hash-for-method="testCreate">testCreate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="ReviewAndInformation.Services.GoToPlacesServiceTest" hash-for-method="testCreate">testCreate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="ReviewAndInformation.Respository.directorRepoTest" hash-for-method="testCreate">testCreate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="ReviewAndInformation.Respository.GoToPlacesRepoTest" hash-for-method="testCreate">testCreate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="ReviewAndInformation.Respository.dangerPlacesRepoTest" hash-for-method="testCreate">testCreate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="ReviewAndInformation.Respository.musicTypeRepoTest" hash-for-method="testCreate">testCreate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="ReviewAndInformation.Services.cityInfoServiceTest" hash-for-method="testCreate">testCreate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="ReviewAndInformation.Services.directorServiceTest" hash-for-method="testCreate">testCreate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="ReviewAndInformation.Services.recordLabelServiceTest" hash-for-method="testCreate">testCreate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="ReviewAndInformation.Services.dangerPlacesServiceTest" hash-for-method="testCreate">testCreate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="ReviewAndInformation.Services.producerServiceTest" hash-for-method="testCreate">testCreate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="ReviewAndInformation.Services.singerServiceTest" hash-for-method="testCreate">testCreate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="ReviewAndInformation.Respository.movieRepoTest" hash-for-method="testCreate">testCreate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="ReviewAndInformation.Respository.cityInfoRepoTest" hash-for-method="testCreate">testCreate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="ReviewAndInformation.Respository.singerRepoTest" hash-for-method="testCreate">testCreate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="ReviewAndInformation.Respository.placeMovieSetRepoTest" hash-for-method="testCreate">testCreate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="ReviewAndInformation.Services.musicTypeServiceTest" hash-for-method="testCreate">testCreate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="ReviewAndInformation.Respository.placeMovieSetRepoTest" hash-for-method="testDelete">testDelete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="ReviewAndInformation.Respository.dangerPlacesRepoTest" hash-for-method="testDelete">testDelete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="ReviewAndInformation.Respository.musicTypeRepoTest" hash-for-method="testDelete">testDelete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="ReviewAndInformation.Respository.cityInfoRepoTest" hash-for-method="testDelete">testDelete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="ReviewAndInformation.Respository.producerRepoTest" hash-for-method="testDelete">testDelete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="ReviewAndInformation.Respository.directorRepoTest" hash-for-method="testDelete">testDelete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="ReviewAndInformation.Respository.GoToPlacesRepoTest" hash-for-method="testDelete">testDelete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="ReviewAndInformation.Respository.recordLabelRepoTest" hash-for-method="testDelete">testDelete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="ReviewAndInformation.Respository.movieRepoTest" hash-for-method="testDelete">testDelete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="ReviewAndInformation.Respository.singerRepoTest" hash-for-method="testDelete">testDelete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="ReviewAndInformation.Respository.movieRepoTest" hash-for-method="testRead">testRead</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="ReviewAndInformation.Respository.musicTypeRepoTest" hash-for-method="testRead">testRead</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="ReviewAndInformation.Respository.GoToPlacesRepoTest" hash-for-method="testRead">testRead</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="ReviewAndInformation.Respository.producerRepoTest" hash-for-method="testRead">testRead</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="ReviewAndInformation.Respository.directorRepoTest" hash-for-method="testRead">testRead</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="ReviewAndInformation.Respository.placeMovieSetRepoTest" hash-for-method="testRead">testRead</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="ReviewAndInformation.Respository.singerRepoTest" hash-for-method="testRead">testRead</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="ReviewAndInformation.Respository.recordLabelRepoTest" hash-for-method="testRead">testRead</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="ReviewAndInformation.Respository.dangerPlacesRepoTest" hash-for-method="testRead">testRead</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="ReviewAndInformation.Respository.cityInfoRepoTest" hash-for-method="testRead">testRead</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="ReviewAndInformation.Respository.dangerPlacesRepoTest" hash-for-method="testUpdate">testUpdate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="ReviewAndInformation.Respository.movieRepoTest" hash-for-method="testUpdate">testUpdate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="ReviewAndInformation.Respository.musicTypeRepoTest" hash-for-method="testUpdate">testUpdate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="ReviewAndInformation.Respository.singerRepoTest" hash-for-method="testUpdate">testUpdate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="ReviewAndInformation.Respository.recordLabelRepoTest" hash-for-method="testUpdate">testUpdate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="ReviewAndInformation.Respository.placeMovieSetRepoTest" hash-for-method="testUpdate">testUpdate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="ReviewAndInformation.Respository.cityInfoRepoTest" hash-for-method="testUpdate">testUpdate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="ReviewAndInformation.Respository.producerRepoTest" hash-for-method="testUpdate">testUpdate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="ReviewAndInformation.Respository.directorRepoTest" hash-for-method="testUpdate">testUpdate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="ReviewAndInformation.Respository.GoToPlacesRepoTest" hash-for-method="testUpdate">testUpdate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Command_line_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Command_line_suite" class="panel Command_line_suite">
+          <div class="suite-Command_line_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">ReviewAndInformation.Services.dangerPlacesServiceTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetCityInfo">
+                  </a> <!-- testGetCityInfo -->
+                  <span class="method-name">testGetCityInfo</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at ReviewAndInformation.Services.dangerPlacesServiceTest.testGetCityInfo(dangerPlacesServiceTest.java:50)
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:171)
+... Removed 40 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-failed -->
+          <div class="suite-Command_line_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">ReviewAndInformation.Services.placeMovieSetServiceTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetCityInfo">
+                  </a> <!-- testGetCityInfo -->
+                  <span class="method-name">testGetCityInfo</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at ReviewAndInformation.Services.placeMovieSetServiceTest.testGetCityInfo(placeMovieSetServiceTest.java:42)
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:171)
+... Removed 40 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-failed -->
+          <div class="suite-Command_line_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">ReviewAndInformation.Services.singerServiceTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetCityInfo">
+                  </a> <!-- testGetCityInfo -->
+                  <span class="method-name">testGetCityInfo</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at ReviewAndInformation.Services.singerServiceTest.testGetCityInfo(singerServiceTest.java:42)
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:171)
+... Removed 40 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-failed -->
+          <div class="suite-Command_line_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">ReviewAndInformation.Services.cityInfoServiceTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetCityInfo">
+                  </a> <!-- testGetCityInfo -->
+                  <span class="method-name">testGetCityInfo</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at ReviewAndInformation.Services.cityInfoServiceTest.testGetCityInfo(cityInfoServiceTest.java:50)
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:171)
+... Removed 40 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-failed -->
+          <div class="suite-Command_line_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">ReviewAndInformation.Services.musicTypeServiceTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetCityInfo">
+                  </a> <!-- testGetCityInfo -->
+                  <span class="method-name">testGetCityInfo</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at ReviewAndInformation.Services.musicTypeServiceTest.testGetCityInfo(musicTypeServiceTest.java:42)
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:171)
+... Removed 40 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-failed -->
+          <div class="suite-Command_line_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">ReviewAndInformation.Services.GoToPlacesServiceTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetCityInfo">
+                  </a> <!-- testGetCityInfo -->
+                  <span class="method-name">testGetCityInfo</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at ReviewAndInformation.Services.GoToPlacesServiceTest.testGetCityInfo(GoToPlacesServiceTest.java:42)
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:171)
+... Removed 40 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-failed -->
+          <div class="suite-Command_line_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">ReviewAndInformation.Services.recordLabelServiceTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetCityInfo">
+                  </a> <!-- testGetCityInfo -->
+                  <span class="method-name">testGetCityInfo</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at ReviewAndInformation.Services.recordLabelServiceTest.testGetCityInfo(recordLabelServiceTest.java:42)
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:171)
+... Removed 40 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-failed -->
+          <div class="suite-Command_line_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">ReviewAndInformation.Services.movieServiceTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreate">
+                  </a> <!-- testCreate -->
+                  <span class="method-name">testCreate</span>
+                  <div class="stack-trace">org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:255)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:221)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:417)
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:59)
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:213)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:147)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodIntercceptor.invoke(CrudMethodMetadataPostProcessor.java:122)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:207)
+	at com.sun.proxy.$Proxy72.save(Unknown Source)
+	at ReviewAndInformation.Services.movieServiceTest.testCreate(movieServiceTest.java:35)
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:171)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:72)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:49)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:126)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:112)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:211)
+	at org.hibernate.id.IdentityGenerator$GetGeneratedKeysDelegate.executeAndExtract(IdentityGenerator.java:96)
+	at org.hibernate.id.insert.AbstractReturningDelegate.performInsert(AbstractReturningDelegate.java:58)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3032)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3558)
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:98)
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:492)
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:197)
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:181)
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:216)
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:324)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:288)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:194)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:125)
+	at org.hibernate.jpa.event.internal.core.JpaPersistEventListener.saveWithGeneratedId(JpaPersistEventListener.java:84)
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:206)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:149)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:75)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:811)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:784)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:789)
+	at org.hibernate.jpa.spi.AbstractEntityManagerImpl.persist(AbstractEntityManagerImpl.java:1181)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:291)
+	at com.sun.proxy.$Proxy60.persist(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:407)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.executeMethodOn(RepositoryFactorySupport.java:416)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:401)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:373)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:281)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:136)
+	... 45 more
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry &apos;84&apos; for key &apos;UK_ok7xex41a4p0dr5unwpmdrbeu&apos;
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389)
+	at com.mysql.jdbc.Util.getInstance(Util.java:372)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3835)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3771)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2435)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2582)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2535)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1911)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2145)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2081)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2066)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:208)
+	... 86 more
+... Removed 48 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-failed -->
+          <div class="suite-Command_line_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">ReviewAndInformation.Services.producerServiceTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetCityInfo">
+                  </a> <!-- testGetCityInfo -->
+                  <span class="method-name">testGetCityInfo</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at ReviewAndInformation.Services.producerServiceTest.testGetCityInfo(producerServiceTest.java:44)
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:171)
+... Removed 40 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-failed -->
+          <div class="suite-Command_line_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">ReviewAndInformation.Services.directorServiceTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetCityInfo">
+                  </a> <!-- testGetCityInfo -->
+                  <span class="method-name">testGetCityInfo</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at ReviewAndInformation.Services.directorServiceTest.testGetCityInfo(directorServiceTest.java:44)
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:171)
+... Removed 40 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-failed -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">ReviewAndInformation.Services.movieServiceTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetCityInfo">
+                  </a> <!-- testGetCityInfo -->
+                  <span class="method-name">testGetCityInfo</span>
+                  <div class="stack-trace">java.lang.Throwable: Method movieServiceTest.testGetCityInfo()[pri:0, instance:ReviewAndInformation.Services.movieServiceTest@16efb90] depends on not successfully finished methods
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ReviewAndInformation.Services.dangerPlacesServiceTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreate">
+                  </a> <!-- testCreate -->
+                  <span class="method-name">testCreate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ReviewAndInformation.Respository.placeMovieSetRepoTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreate">
+                  </a> <!-- testCreate -->
+                  <span class="method-name">testCreate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDelete">
+                  </a> <!-- testDelete -->
+                  <span class="method-name">testDelete</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRead">
+                  </a> <!-- testRead -->
+                  <span class="method-name">testRead</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdate">
+                  </a> <!-- testUpdate -->
+                  <span class="method-name">testUpdate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ReviewAndInformation.Services.musicTypeServiceTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreate">
+                  </a> <!-- testCreate -->
+                  <span class="method-name">testCreate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ReviewAndInformation.Respository.singerRepoTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreate">
+                  </a> <!-- testCreate -->
+                  <span class="method-name">testCreate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDelete">
+                  </a> <!-- testDelete -->
+                  <span class="method-name">testDelete</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRead">
+                  </a> <!-- testRead -->
+                  <span class="method-name">testRead</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdate">
+                  </a> <!-- testUpdate -->
+                  <span class="method-name">testUpdate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ReviewAndInformation.Respository.producerRepoTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreate">
+                  </a> <!-- testCreate -->
+                  <span class="method-name">testCreate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDelete">
+                  </a> <!-- testDelete -->
+                  <span class="method-name">testDelete</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRead">
+                  </a> <!-- testRead -->
+                  <span class="method-name">testRead</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdate">
+                  </a> <!-- testUpdate -->
+                  <span class="method-name">testUpdate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ReviewAndInformation.Respository.GoToPlacesRepoTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreate">
+                  </a> <!-- testCreate -->
+                  <span class="method-name">testCreate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDelete">
+                  </a> <!-- testDelete -->
+                  <span class="method-name">testDelete</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRead">
+                  </a> <!-- testRead -->
+                  <span class="method-name">testRead</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdate">
+                  </a> <!-- testUpdate -->
+                  <span class="method-name">testUpdate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ReviewAndInformation.Respository.recordLabelRepoTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreate">
+                  </a> <!-- testCreate -->
+                  <span class="method-name">testCreate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDelete">
+                  </a> <!-- testDelete -->
+                  <span class="method-name">testDelete</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRead">
+                  </a> <!-- testRead -->
+                  <span class="method-name">testRead</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdate">
+                  </a> <!-- testUpdate -->
+                  <span class="method-name">testUpdate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ReviewAndInformation.Respository.directorRepoTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreate">
+                  </a> <!-- testCreate -->
+                  <span class="method-name">testCreate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDelete">
+                  </a> <!-- testDelete -->
+                  <span class="method-name">testDelete</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRead">
+                  </a> <!-- testRead -->
+                  <span class="method-name">testRead</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdate">
+                  </a> <!-- testUpdate -->
+                  <span class="method-name">testUpdate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ReviewAndInformation.Respository.dangerPlacesRepoTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreate">
+                  </a> <!-- testCreate -->
+                  <span class="method-name">testCreate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDelete">
+                  </a> <!-- testDelete -->
+                  <span class="method-name">testDelete</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRead">
+                  </a> <!-- testRead -->
+                  <span class="method-name">testRead</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdate">
+                  </a> <!-- testUpdate -->
+                  <span class="method-name">testUpdate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ReviewAndInformation.Respository.movieRepoTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreate">
+                  </a> <!-- testCreate -->
+                  <span class="method-name">testCreate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDelete">
+                  </a> <!-- testDelete -->
+                  <span class="method-name">testDelete</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRead">
+                  </a> <!-- testRead -->
+                  <span class="method-name">testRead</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdate">
+                  </a> <!-- testUpdate -->
+                  <span class="method-name">testUpdate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ReviewAndInformation.Services.placeMovieSetServiceTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreate">
+                  </a> <!-- testCreate -->
+                  <span class="method-name">testCreate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ReviewAndInformation.Services.singerServiceTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreate">
+                  </a> <!-- testCreate -->
+                  <span class="method-name">testCreate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ReviewAndInformation.Services.cityInfoServiceTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreate">
+                  </a> <!-- testCreate -->
+                  <span class="method-name">testCreate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ReviewAndInformation.Respository.cityInfoRepoTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreate">
+                  </a> <!-- testCreate -->
+                  <span class="method-name">testCreate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDelete">
+                  </a> <!-- testDelete -->
+                  <span class="method-name">testDelete</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRead">
+                  </a> <!-- testRead -->
+                  <span class="method-name">testRead</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdate">
+                  </a> <!-- testUpdate -->
+                  <span class="method-name">testUpdate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ReviewAndInformation.Services.recordLabelServiceTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreate">
+                  </a> <!-- testCreate -->
+                  <span class="method-name">testCreate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ReviewAndInformation.Services.GoToPlacesServiceTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreate">
+                  </a> <!-- testCreate -->
+                  <span class="method-name">testCreate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ReviewAndInformation.Respository.musicTypeRepoTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreate">
+                  </a> <!-- testCreate -->
+                  <span class="method-name">testCreate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDelete">
+                  </a> <!-- testDelete -->
+                  <span class="method-name">testDelete</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRead">
+                  </a> <!-- testRead -->
+                  <span class="method-name">testRead</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdate">
+                  </a> <!-- testUpdate -->
+                  <span class="method-name">testUpdate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ReviewAndInformation.Services.producerServiceTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreate">
+                  </a> <!-- testCreate -->
+                  <span class="method-name">testCreate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ReviewAndInformation.Services.directorServiceTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreate">
+                  </a> <!-- testCreate -->
+                  <span class="method-name">testCreate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+        </div> <!-- panel Command_line_suite -->
+        <div panel-name="test-xml-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;Command line suite&quot;&gt;
+  &lt;test name=&quot;Command line test&quot; preserve-order=&quot;false&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;ReviewAndInformation.Domain.musicTypeTest&quot;/&gt;
+      &lt;class name=&quot;ReviewAndInformation.Domain.dangerPlacesTest&quot;/&gt;
+      &lt;class name=&quot;ReviewAndInformation.Domain.directorTest&quot;/&gt;
+      &lt;class name=&quot;ReviewAndInformation.Domain.recordLabelTest&quot;/&gt;
+      &lt;class name=&quot;ReviewAndInformation.Domain.singerTest&quot;/&gt;
+      &lt;class name=&quot;ReviewAndInformation.Domain.GoToPlacesTest&quot;/&gt;
+      &lt;class name=&quot;ReviewAndInformation.Domain.producerTest&quot;/&gt;
+      &lt;class name=&quot;ReviewAndInformation.Domain.placeMovieSetTest&quot;/&gt;
+      &lt;class name=&quot;ReviewAndInformation.Domain.movieTest&quot;/&gt;
+      &lt;class name=&quot;ReviewAndInformation.Domain.cityInfoTest&quot;/&gt;
+      &lt;class name=&quot;ReviewAndInformation.Services.dangerPlacesServiceTest&quot;/&gt;
+      &lt;class name=&quot;ReviewAndInformation.Services.movieServiceTest&quot;/&gt;
+      &lt;class name=&quot;ReviewAndInformation.Services.GoToPlacesServiceTest&quot;/&gt;
+      &lt;class name=&quot;ReviewAndInformation.Services.placeMovieSetServiceTest&quot;/&gt;
+      &lt;class name=&quot;ReviewAndInformation.Services.cityInfoServiceTest&quot;/&gt;
+      &lt;class name=&quot;ReviewAndInformation.Services.musicTypeServiceTest&quot;/&gt;
+      &lt;class name=&quot;ReviewAndInformation.Services.singerServiceTest&quot;/&gt;
+      &lt;class name=&quot;ReviewAndInformation.Services.recordLabelServiceTest&quot;/&gt;
+      &lt;class name=&quot;ReviewAndInformation.Services.producerServiceTest&quot;/&gt;
+      &lt;class name=&quot;ReviewAndInformation.Services.directorServiceTest&quot;/&gt;
+      &lt;class name=&quot;ReviewAndInformation.Respository.directorRepoTest&quot;/&gt;
+      &lt;class name=&quot;ReviewAndInformation.Respository.placeMovieSetRepoTest&quot;/&gt;
+      &lt;class name=&quot;ReviewAndInformation.Respository.cityInfoRepoTest&quot;/&gt;
+      &lt;class name=&quot;ReviewAndInformation.Respository.recordLabelRepoTest&quot;/&gt;
+      &lt;class name=&quot;ReviewAndInformation.Respository.movieRepoTest&quot;/&gt;
+      &lt;class name=&quot;ReviewAndInformation.Respository.singerRepoTest&quot;/&gt;
+      &lt;class name=&quot;ReviewAndInformation.Respository.musicTypeRepoTest&quot;/&gt;
+      &lt;class name=&quot;ReviewAndInformation.Respository.producerRepoTest&quot;/&gt;
+      &lt;class name=&quot;ReviewAndInformation.Respository.GoToPlacesRepoTest&quot;/&gt;
+      &lt;class name=&quot;ReviewAndInformation.Respository.dangerPlacesRepoTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Command line test --&gt;
+&lt;/suite&gt; &lt;!-- Command line suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Command line test (30 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Command_line_suite');
+function tableData_Command_line_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(60);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testGetCityInfo')
+data.setCell(0, 2, 'ReviewAndInformation.Services.GoToPlacesServiceTest')
+data.setCell(0, 3, 500);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testCreate')
+data.setCell(1, 2, 'ReviewAndInformation.Services.movieServiceTest')
+data.setCell(1, 3, 306);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testCreate')
+data.setCell(2, 2, 'ReviewAndInformation.Respository.GoToPlacesRepoTest')
+data.setCell(2, 3, 227);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testCreate')
+data.setCell(3, 2, 'ReviewAndInformation.Respository.producerRepoTest')
+data.setCell(3, 3, 169);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testUpdate')
+data.setCell(4, 2, 'ReviewAndInformation.Respository.GoToPlacesRepoTest')
+data.setCell(4, 3, 155);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testCreate')
+data.setCell(5, 2, 'ReviewAndInformation.Services.recordLabelServiceTest')
+data.setCell(5, 3, 122);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testRead')
+data.setCell(6, 2, 'ReviewAndInformation.Respository.GoToPlacesRepoTest')
+data.setCell(6, 3, 107);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testCreate')
+data.setCell(7, 2, 'ReviewAndInformation.Respository.movieRepoTest')
+data.setCell(7, 3, 78);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testCreate')
+data.setCell(8, 2, 'ReviewAndInformation.Respository.musicTypeRepoTest')
+data.setCell(8, 3, 72);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testUpdate')
+data.setCell(9, 2, 'ReviewAndInformation.Respository.movieRepoTest')
+data.setCell(9, 3, 56);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testCreate')
+data.setCell(10, 2, 'ReviewAndInformation.Services.cityInfoServiceTest')
+data.setCell(10, 3, 55);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testCreate')
+data.setCell(11, 2, 'ReviewAndInformation.Respository.singerRepoTest')
+data.setCell(11, 3, 54);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testCreate')
+data.setCell(12, 2, 'ReviewAndInformation.Services.placeMovieSetServiceTest')
+data.setCell(12, 3, 53);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testDelete')
+data.setCell(13, 2, 'ReviewAndInformation.Respository.GoToPlacesRepoTest')
+data.setCell(13, 3, 44);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testCreate')
+data.setCell(14, 2, 'ReviewAndInformation.Services.singerServiceTest')
+data.setCell(14, 3, 41);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testCreate')
+data.setCell(15, 2, 'ReviewAndInformation.Respository.recordLabelRepoTest')
+data.setCell(15, 3, 30);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testDelete')
+data.setCell(16, 2, 'ReviewAndInformation.Respository.musicTypeRepoTest')
+data.setCell(16, 3, 25);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testUpdate')
+data.setCell(17, 2, 'ReviewAndInformation.Respository.cityInfoRepoTest')
+data.setCell(17, 3, 25);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testDelete')
+data.setCell(18, 2, 'ReviewAndInformation.Respository.dangerPlacesRepoTest')
+data.setCell(18, 3, 23);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testDelete')
+data.setCell(19, 2, 'ReviewAndInformation.Respository.movieRepoTest')
+data.setCell(19, 3, 23);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testUpdate')
+data.setCell(20, 2, 'ReviewAndInformation.Respository.directorRepoTest')
+data.setCell(20, 3, 22);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testCreate')
+data.setCell(21, 2, 'ReviewAndInformation.Services.musicTypeServiceTest')
+data.setCell(21, 3, 22);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testCreate')
+data.setCell(22, 2, 'ReviewAndInformation.Services.GoToPlacesServiceTest')
+data.setCell(22, 3, 21);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testCreate')
+data.setCell(23, 2, 'ReviewAndInformation.Services.producerServiceTest')
+data.setCell(23, 3, 21);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testUpdate')
+data.setCell(24, 2, 'ReviewAndInformation.Respository.singerRepoTest')
+data.setCell(24, 3, 20);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testDelete')
+data.setCell(25, 2, 'ReviewAndInformation.Respository.cityInfoRepoTest')
+data.setCell(25, 3, 20);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testCreate')
+data.setCell(26, 2, 'ReviewAndInformation.Services.directorServiceTest')
+data.setCell(26, 3, 20);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'testDelete')
+data.setCell(27, 2, 'ReviewAndInformation.Respository.placeMovieSetRepoTest')
+data.setCell(27, 3, 19);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'testDelete')
+data.setCell(28, 2, 'ReviewAndInformation.Respository.producerRepoTest')
+data.setCell(28, 3, 19);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'testCreate')
+data.setCell(29, 2, 'ReviewAndInformation.Respository.cityInfoRepoTest')
+data.setCell(29, 3, 19);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'testDelete')
+data.setCell(30, 2, 'ReviewAndInformation.Respository.singerRepoTest')
+data.setCell(30, 3, 19);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'testUpdate')
+data.setCell(31, 2, 'ReviewAndInformation.Respository.dangerPlacesRepoTest')
+data.setCell(31, 3, 18);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'testDelete')
+data.setCell(32, 2, 'ReviewAndInformation.Respository.directorRepoTest')
+data.setCell(32, 3, 18);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'testDelete')
+data.setCell(33, 2, 'ReviewAndInformation.Respository.recordLabelRepoTest')
+data.setCell(33, 3, 18);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'testUpdate')
+data.setCell(34, 2, 'ReviewAndInformation.Respository.producerRepoTest')
+data.setCell(34, 3, 17);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'testGetCityInfo')
+data.setCell(35, 2, 'ReviewAndInformation.Services.recordLabelServiceTest')
+data.setCell(35, 3, 17);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'testUpdate')
+data.setCell(36, 2, 'ReviewAndInformation.Respository.musicTypeRepoTest')
+data.setCell(36, 3, 15);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'testUpdate')
+data.setCell(37, 2, 'ReviewAndInformation.Respository.placeMovieSetRepoTest')
+data.setCell(37, 3, 15);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'testGetCityInfo')
+data.setCell(38, 2, 'ReviewAndInformation.Services.singerServiceTest')
+data.setCell(38, 3, 15);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'testCreate')
+data.setCell(39, 2, 'ReviewAndInformation.Respository.directorRepoTest')
+data.setCell(39, 3, 14);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'testUpdate')
+data.setCell(40, 2, 'ReviewAndInformation.Respository.recordLabelRepoTest')
+data.setCell(40, 3, 13);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'testGetCityInfo')
+data.setCell(41, 2, 'ReviewAndInformation.Services.directorServiceTest')
+data.setCell(41, 3, 13);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'testGetCityInfo')
+data.setCell(42, 2, 'ReviewAndInformation.Services.dangerPlacesServiceTest')
+data.setCell(42, 3, 12);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'testCreate')
+data.setCell(43, 2, 'ReviewAndInformation.Services.dangerPlacesServiceTest')
+data.setCell(43, 3, 11);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'testCreate')
+data.setCell(44, 2, 'ReviewAndInformation.Respository.placeMovieSetRepoTest')
+data.setCell(44, 3, 11);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'testGetCityInfo')
+data.setCell(45, 2, 'ReviewAndInformation.Services.cityInfoServiceTest')
+data.setCell(45, 3, 10);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'testGetCityInfo')
+data.setCell(46, 2, 'ReviewAndInformation.Services.musicTypeServiceTest')
+data.setCell(46, 3, 10);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'testCreate')
+data.setCell(47, 2, 'ReviewAndInformation.Respository.dangerPlacesRepoTest')
+data.setCell(47, 3, 9);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'testGetCityInfo')
+data.setCell(48, 2, 'ReviewAndInformation.Services.producerServiceTest')
+data.setCell(48, 3, 9);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'testGetCityInfo')
+data.setCell(49, 2, 'ReviewAndInformation.Services.placeMovieSetServiceTest')
+data.setCell(49, 3, 8);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'testRead')
+data.setCell(50, 2, 'ReviewAndInformation.Respository.recordLabelRepoTest')
+data.setCell(50, 3, 7);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'testRead')
+data.setCell(51, 2, 'ReviewAndInformation.Respository.movieRepoTest')
+data.setCell(51, 3, 6);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'testRead')
+data.setCell(52, 2, 'ReviewAndInformation.Respository.producerRepoTest')
+data.setCell(52, 3, 6);
+data.setCell(53, 0, 53)
+data.setCell(53, 1, 'testRead')
+data.setCell(53, 2, 'ReviewAndInformation.Respository.directorRepoTest')
+data.setCell(53, 3, 6);
+data.setCell(54, 0, 54)
+data.setCell(54, 1, 'testRead')
+data.setCell(54, 2, 'ReviewAndInformation.Respository.musicTypeRepoTest')
+data.setCell(54, 3, 5);
+data.setCell(55, 0, 55)
+data.setCell(55, 1, 'testRead')
+data.setCell(55, 2, 'ReviewAndInformation.Respository.placeMovieSetRepoTest')
+data.setCell(55, 3, 5);
+data.setCell(56, 0, 56)
+data.setCell(56, 1, 'testRead')
+data.setCell(56, 2, 'ReviewAndInformation.Respository.singerRepoTest')
+data.setCell(56, 3, 5);
+data.setCell(57, 0, 57)
+data.setCell(57, 1, 'testRead')
+data.setCell(57, 2, 'ReviewAndInformation.Respository.dangerPlacesRepoTest')
+data.setCell(57, 3, 5);
+data.setCell(58, 0, 58)
+data.setCell(58, 1, 'testRead')
+data.setCell(58, 2, 'ReviewAndInformation.Respository.cityInfoRepoTest')
+data.setCell(58, 3, 4);
+data.setCell(59, 0, 59)
+data.setCell(59, 1, 'testGetCityInfo')
+data.setCell(59, 2, 'ReviewAndInformation.Services.movieServiceTest')
+data.setCell(59, 3, 0);
+window.suiteTableData['Command_line_suite']= { tableData: data, tableDiv: 'times-div-Command_line_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 seconds</span>
+              <div id="times-div-Command_line_suite">
+              </div> <!-- times-div-Command_line_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">ReviewAndInformation.Respository.GoToPlacesRepoTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">15 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void ReviewAndInformation.Respository.GoToPlacesRepoTest.testCreate() throws java.lang.Except...)</span>
+                <span class="method-start">14460 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCreate</span>
+                <span class="method-start">14461 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void ReviewAndInformation.Respository.GoToPlacesRepoTest.testCreate() throws java.lang.Except...)</span>
+                <span class="method-start">14690 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ReviewAndInformation.Services.GoToPlacesServiceTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">14692 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">14692 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void ReviewAndInformation.Services.GoToPlacesServiceTest.testCreate() throws java.lang.Except...)</span>
+                <span class="method-start">14697 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCreate</span>
+                <span class="method-start">14697 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void ReviewAndInformation.Services.GoToPlacesServiceTest.testCreate() throws java.lang.Except...)</span>
+                <span class="method-start">14719 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ReviewAndInformation.Respository.cityInfoRepoTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">14719 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">14719 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void ReviewAndInformation.Respository.cityInfoRepoTest.testCreate() throws java.lang.Exceptio...)</span>
+                <span class="method-start">14725 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCreate</span>
+                <span class="method-start">14725 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void ReviewAndInformation.Respository.cityInfoRepoTest.testCreate() throws java.lang.Exceptio...)</span>
+                <span class="method-start">14744 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ReviewAndInformation.Services.cityInfoServiceTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">14745 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">14745 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void ReviewAndInformation.Services.cityInfoServiceTest.testCreate() throws java.lang.Exceptio...)</span>
+                <span class="method-start">14761 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">14761 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCreate</span>
+                <span class="method-start">14761 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void ReviewAndInformation.Services.cityInfoServiceTest.testCreate() throws java.lang.Exceptio...)</span>
+                <span class="method-start">14817 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ReviewAndInformation.Respository.dangerPlacesRepoTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">14817 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">14818 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void ReviewAndInformation.Respository.dangerPlacesRepoTest.testCreate() throws java.lang.Exce...)</span>
+                <span class="method-start">14823 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCreate</span>
+                <span class="method-start">14823 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void ReviewAndInformation.Respository.dangerPlacesRepoTest.testCreate() throws java.lang.Exce...)</span>
+                <span class="method-start">14833 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ReviewAndInformation.Services.dangerPlacesServiceTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">14833 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">14833 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void ReviewAndInformation.Services.dangerPlacesServiceTest.testCreate() throws java.lang.Exce...)</span>
+                <span class="method-start">14852 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">14852 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCreate</span>
+                <span class="method-start">14852 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void ReviewAndInformation.Services.dangerPlacesServiceTest.testCreate() throws java.lang.Exce...)</span>
+                <span class="method-start">14864 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ReviewAndInformation.Respository.directorRepoTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">14864 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">14864 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void ReviewAndInformation.Respository.directorRepoTest.testCreate() throws java.lang.Exceptio...)</span>
+                <span class="method-start">14870 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCreate</span>
+                <span class="method-start">14871 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void ReviewAndInformation.Respository.directorRepoTest.testCreate() throws java.lang.Exceptio...)</span>
+                <span class="method-start">14885 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ReviewAndInformation.Services.directorServiceTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">14886 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">14886 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void ReviewAndInformation.Services.directorServiceTest.testCreate() throws java.lang.Exceptio...)</span>
+                <span class="method-start">14891 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCreate</span>
+                <span class="method-start">14892 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void ReviewAndInformation.Services.directorServiceTest.testCreate() throws java.lang.Exceptio...)</span>
+                <span class="method-start">14913 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ReviewAndInformation.Respository.movieRepoTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">14913 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">14913 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void ReviewAndInformation.Respository.movieRepoTest.testCreate() throws java.lang.Exception)</span>
+                <span class="method-start">14919 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCreate</span>
+                <span class="method-start">14919 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void ReviewAndInformation.Respository.movieRepoTest.testCreate() throws java.lang.Exception)</span>
+                <span class="method-start">14998 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ReviewAndInformation.Services.movieServiceTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">14999 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">14999 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void ReviewAndInformation.Services.movieServiceTest.testCreate() throws java.lang.Exception)</span>
+                <span class="method-start">15010 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testCreate</span>
+                <span class="method-start">15010 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void ReviewAndInformation.Services.movieServiceTest.testCreate() throws java.lang.Exception)</span>
+                <span class="method-start">15342 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ReviewAndInformation.Respository.musicTypeRepoTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">15342 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">15343 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void ReviewAndInformation.Respository.musicTypeRepoTest.testCreate() throws java.lang.Excepti...)</span>
+                <span class="method-start">15350 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCreate</span>
+                <span class="method-start">15350 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void ReviewAndInformation.Respository.musicTypeRepoTest.testCreate() throws java.lang.Excepti...)</span>
+                <span class="method-start">15422 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ReviewAndInformation.Services.musicTypeServiceTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">15423 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">15423 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void ReviewAndInformation.Services.musicTypeServiceTest.testCreate() throws java.lang.Excepti...)</span>
+                <span class="method-start">15428 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCreate</span>
+                <span class="method-start">15428 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void ReviewAndInformation.Services.musicTypeServiceTest.testCreate() throws java.lang.Excepti...)</span>
+                <span class="method-start">15451 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ReviewAndInformation.Respository.placeMovieSetRepoTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">15451 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">15452 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void ReviewAndInformation.Respository.placeMovieSetRepoTest.testCreate() throws java.lang.Exc...)</span>
+                <span class="method-start">15457 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCreate</span>
+                <span class="method-start">15462 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void ReviewAndInformation.Respository.placeMovieSetRepoTest.testCreate() throws java.lang.Exc...)</span>
+                <span class="method-start">15473 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ReviewAndInformation.Services.placeMovieSetServiceTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">15473 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">15474 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void ReviewAndInformation.Services.placeMovieSetServiceTest.testCreate() throws java.lang.Exc...)</span>
+                <span class="method-start">15486 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCreate</span>
+                <span class="method-start">15486 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void ReviewAndInformation.Services.placeMovieSetServiceTest.testCreate() throws java.lang.Exc...)</span>
+                <span class="method-start">15540 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ReviewAndInformation.Respository.producerRepoTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">15540 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">15540 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void ReviewAndInformation.Respository.producerRepoTest.testCreate() throws java.lang.Exceptio...)</span>
+                <span class="method-start">15546 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCreate</span>
+                <span class="method-start">15546 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void ReviewAndInformation.Respository.producerRepoTest.testCreate() throws java.lang.Exceptio...)</span>
+                <span class="method-start">15715 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ReviewAndInformation.Services.producerServiceTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">15716 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">15718 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void ReviewAndInformation.Services.producerServiceTest.testCreate() throws java.lang.Exceptio...)</span>
+                <span class="method-start">15726 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCreate</span>
+                <span class="method-start">15728 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void ReviewAndInformation.Services.producerServiceTest.testCreate() throws java.lang.Exceptio...)</span>
+                <span class="method-start">15749 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ReviewAndInformation.Respository.recordLabelRepoTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">15750 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">15750 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void ReviewAndInformation.Respository.recordLabelRepoTest.testCreate() throws java.lang.Excep...)</span>
+                <span class="method-start">15756 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCreate</span>
+                <span class="method-start">15756 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void ReviewAndInformation.Respository.recordLabelRepoTest.testCreate() throws java.lang.Excep...)</span>
+                <span class="method-start">15786 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ReviewAndInformation.Services.recordLabelServiceTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">15787 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">15787 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void ReviewAndInformation.Services.recordLabelServiceTest.testCreate() throws java.lang.Excep...)</span>
+                <span class="method-start">15792 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCreate</span>
+                <span class="method-start">15793 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void ReviewAndInformation.Services.recordLabelServiceTest.testCreate() throws java.lang.Excep...)</span>
+                <span class="method-start">15916 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ReviewAndInformation.Respository.singerRepoTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">15916 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">15917 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void ReviewAndInformation.Respository.singerRepoTest.testCreate() throws java.lang.Exception)</span>
+                <span class="method-start">15927 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCreate</span>
+                <span class="method-start">15928 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void ReviewAndInformation.Respository.singerRepoTest.testCreate() throws java.lang.Exception)</span>
+                <span class="method-start">15982 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ReviewAndInformation.Services.singerServiceTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">15983 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">15983 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void ReviewAndInformation.Services.singerServiceTest.testCreate() throws java.lang.Exception)</span>
+                <span class="method-start">15989 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCreate</span>
+                <span class="method-start">15989 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void ReviewAndInformation.Services.singerServiceTest.testCreate() throws java.lang.Exception)</span>
+                <span class="method-start">16031 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ReviewAndInformation.Respository.GoToPlacesRepoTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void ReviewAndInformation.Respository.GoToPlacesRepoTest.testRead() throws java.lang.Exceptio...)</span>
+                <span class="method-start">16034 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRead</span>
+                <span class="method-start">16034 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void ReviewAndInformation.Respository.GoToPlacesRepoTest.testRead() throws java.lang.Exceptio...)</span>
+                <span class="method-start">16142 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ReviewAndInformation.Services.GoToPlacesServiceTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void ReviewAndInformation.Services.GoToPlacesServiceTest.testGetCityInfo() throws java.lang.E...)</span>
+                <span class="method-start">16142 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testGetCityInfo</span>
+                <span class="method-start">16143 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void ReviewAndInformation.Services.GoToPlacesServiceTest.testGetCityInfo() throws java.lang.E...)</span>
+                <span class="method-start">16644 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">16645 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ReviewAndInformation.Respository.cityInfoRepoTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void ReviewAndInformation.Respository.cityInfoRepoTest.testRead() throws java.lang.Exception)</span>
+                <span class="method-start">16645 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRead</span>
+                <span class="method-start">16646 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void ReviewAndInformation.Respository.cityInfoRepoTest.testRead() throws java.lang.Exception)</span>
+                <span class="method-start">16651 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ReviewAndInformation.Services.cityInfoServiceTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void ReviewAndInformation.Services.cityInfoServiceTest.testGetCityInfo() throws java.lang.Exc...)</span>
+                <span class="method-start">16651 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">16652 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testGetCityInfo</span>
+                <span class="method-start">16652 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void ReviewAndInformation.Services.cityInfoServiceTest.testGetCityInfo() throws java.lang.Exc...)</span>
+                <span class="method-start">16663 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">16663 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ReviewAndInformation.Respository.dangerPlacesRepoTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void ReviewAndInformation.Respository.dangerPlacesRepoTest.testRead() throws java.lang.Except...)</span>
+                <span class="method-start">16664 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRead</span>
+                <span class="method-start">16666 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void ReviewAndInformation.Respository.dangerPlacesRepoTest.testRead() throws java.lang.Except...)</span>
+                <span class="method-start">16671 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ReviewAndInformation.Services.dangerPlacesServiceTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void ReviewAndInformation.Services.dangerPlacesServiceTest.testGetCityInfo() throws java.lang...)</span>
+                <span class="method-start">16672 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">16672 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testGetCityInfo</span>
+                <span class="method-start">16673 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void ReviewAndInformation.Services.dangerPlacesServiceTest.testGetCityInfo() throws java.lang...)</span>
+                <span class="method-start">16685 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">16686 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ReviewAndInformation.Respository.directorRepoTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void ReviewAndInformation.Respository.directorRepoTest.testRead() throws java.lang.Exception)</span>
+                <span class="method-start">16686 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRead</span>
+                <span class="method-start">16687 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void ReviewAndInformation.Respository.directorRepoTest.testRead() throws java.lang.Exception)</span>
+                <span class="method-start">16693 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ReviewAndInformation.Services.directorServiceTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void ReviewAndInformation.Services.directorServiceTest.testGetCityInfo() throws java.lang.Exc...)</span>
+                <span class="method-start">16694 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testGetCityInfo</span>
+                <span class="method-start">16694 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void ReviewAndInformation.Services.directorServiceTest.testGetCityInfo() throws java.lang.Exc...)</span>
+                <span class="method-start">16708 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">16708 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ReviewAndInformation.Respository.movieRepoTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void ReviewAndInformation.Respository.movieRepoTest.testRead() throws java.lang.Exception)</span>
+                <span class="method-start">16709 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRead</span>
+                <span class="method-start">16709 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void ReviewAndInformation.Respository.movieRepoTest.testRead() throws java.lang.Exception)</span>
+                <span class="method-start">16715 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ReviewAndInformation.Services.movieServiceTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">16716 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ReviewAndInformation.Respository.musicTypeRepoTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void ReviewAndInformation.Respository.musicTypeRepoTest.testRead() throws java.lang.Exception)</span>
+                <span class="method-start">16717 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRead</span>
+                <span class="method-start">16717 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void ReviewAndInformation.Respository.musicTypeRepoTest.testRead() throws java.lang.Exception)</span>
+                <span class="method-start">16722 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ReviewAndInformation.Services.musicTypeServiceTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void ReviewAndInformation.Services.musicTypeServiceTest.testGetCityInfo() throws java.lang.Ex...)</span>
+                <span class="method-start">16723 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testGetCityInfo</span>
+                <span class="method-start">16723 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void ReviewAndInformation.Services.musicTypeServiceTest.testGetCityInfo() throws java.lang.Ex...)</span>
+                <span class="method-start">16734 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">16734 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ReviewAndInformation.Respository.placeMovieSetRepoTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void ReviewAndInformation.Respository.placeMovieSetRepoTest.testRead() throws java.lang.Excep...)</span>
+                <span class="method-start">16735 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRead</span>
+                <span class="method-start">16736 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void ReviewAndInformation.Respository.placeMovieSetRepoTest.testRead() throws java.lang.Excep...)</span>
+                <span class="method-start">16742 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ReviewAndInformation.Services.placeMovieSetServiceTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void ReviewAndInformation.Services.placeMovieSetServiceTest.testGetCityInfo() throws java.lan...)</span>
+                <span class="method-start">16742 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testGetCityInfo</span>
+                <span class="method-start">16743 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void ReviewAndInformation.Services.placeMovieSetServiceTest.testGetCityInfo() throws java.lan...)</span>
+                <span class="method-start">16752 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">16752 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ReviewAndInformation.Respository.producerRepoTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void ReviewAndInformation.Respository.producerRepoTest.testRead() throws java.lang.Exception)</span>
+                <span class="method-start">16753 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRead</span>
+                <span class="method-start">16753 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void ReviewAndInformation.Respository.producerRepoTest.testRead() throws java.lang.Exception)</span>
+                <span class="method-start">16760 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ReviewAndInformation.Services.producerServiceTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void ReviewAndInformation.Services.producerServiceTest.testGetCityInfo() throws java.lang.Exc...)</span>
+                <span class="method-start">16760 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testGetCityInfo</span>
+                <span class="method-start">16762 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void ReviewAndInformation.Services.producerServiceTest.testGetCityInfo() throws java.lang.Exc...)</span>
+                <span class="method-start">16771 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">16772 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ReviewAndInformation.Respository.recordLabelRepoTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void ReviewAndInformation.Respository.recordLabelRepoTest.testRead() throws java.lang.Excepti...)</span>
+                <span class="method-start">16772 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRead</span>
+                <span class="method-start">16773 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void ReviewAndInformation.Respository.recordLabelRepoTest.testRead() throws java.lang.Excepti...)</span>
+                <span class="method-start">16781 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ReviewAndInformation.Services.recordLabelServiceTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void ReviewAndInformation.Services.recordLabelServiceTest.testGetCityInfo() throws java.lang....)</span>
+                <span class="method-start">16782 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testGetCityInfo</span>
+                <span class="method-start">16782 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void ReviewAndInformation.Services.recordLabelServiceTest.testGetCityInfo() throws java.lang....)</span>
+                <span class="method-start">16800 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">16801 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ReviewAndInformation.Respository.singerRepoTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void ReviewAndInformation.Respository.singerRepoTest.testRead() throws java.lang.Exception)</span>
+                <span class="method-start">16801 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRead</span>
+                <span class="method-start">16802 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void ReviewAndInformation.Respository.singerRepoTest.testRead() throws java.lang.Exception)</span>
+                <span class="method-start">16807 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ReviewAndInformation.Services.singerServiceTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void ReviewAndInformation.Services.singerServiceTest.testGetCityInfo() throws java.lang.Excep...)</span>
+                <span class="method-start">16808 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testGetCityInfo</span>
+                <span class="method-start">16809 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void ReviewAndInformation.Services.singerServiceTest.testGetCityInfo() throws java.lang.Excep...)</span>
+                <span class="method-start">16825 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">16826 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ReviewAndInformation.Respository.GoToPlacesRepoTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void ReviewAndInformation.Respository.GoToPlacesRepoTest.testUpdate() throws java.lang.Except...)</span>
+                <span class="method-start">16827 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testUpdate</span>
+                <span class="method-start">16827 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void ReviewAndInformation.Respository.GoToPlacesRepoTest.testUpdate() throws java.lang.Except...)</span>
+                <span class="method-start">16983 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ReviewAndInformation.Respository.cityInfoRepoTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void ReviewAndInformation.Respository.cityInfoRepoTest.testUpdate() throws java.lang.Exceptio...)</span>
+                <span class="method-start">16984 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testUpdate</span>
+                <span class="method-start">16985 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void ReviewAndInformation.Respository.cityInfoRepoTest.testUpdate() throws java.lang.Exceptio...)</span>
+                <span class="method-start">17010 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ReviewAndInformation.Respository.dangerPlacesRepoTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void ReviewAndInformation.Respository.dangerPlacesRepoTest.testUpdate() throws java.lang.Exce...)</span>
+                <span class="method-start">17011 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testUpdate</span>
+                <span class="method-start">17012 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void ReviewAndInformation.Respository.dangerPlacesRepoTest.testUpdate() throws java.lang.Exce...)</span>
+                <span class="method-start">17030 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ReviewAndInformation.Respository.directorRepoTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void ReviewAndInformation.Respository.directorRepoTest.testUpdate() throws java.lang.Exceptio...)</span>
+                <span class="method-start">17031 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testUpdate</span>
+                <span class="method-start">17032 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void ReviewAndInformation.Respository.directorRepoTest.testUpdate() throws java.lang.Exceptio...)</span>
+                <span class="method-start">17057 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ReviewAndInformation.Respository.movieRepoTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void ReviewAndInformation.Respository.movieRepoTest.testUpdate() throws java.lang.Exception)</span>
+                <span class="method-start">17058 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testUpdate</span>
+                <span class="method-start">17059 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void ReviewAndInformation.Respository.movieRepoTest.testUpdate() throws java.lang.Exception)</span>
+                <span class="method-start">17116 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ReviewAndInformation.Respository.musicTypeRepoTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void ReviewAndInformation.Respository.musicTypeRepoTest.testUpdate() throws java.lang.Excepti...)</span>
+                <span class="method-start">17117 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testUpdate</span>
+                <span class="method-start">17117 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void ReviewAndInformation.Respository.musicTypeRepoTest.testUpdate() throws java.lang.Excepti...)</span>
+                <span class="method-start">17132 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ReviewAndInformation.Respository.placeMovieSetRepoTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void ReviewAndInformation.Respository.placeMovieSetRepoTest.testUpdate() throws java.lang.Exc...)</span>
+                <span class="method-start">17133 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testUpdate</span>
+                <span class="method-start">17134 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void ReviewAndInformation.Respository.placeMovieSetRepoTest.testUpdate() throws java.lang.Exc...)</span>
+                <span class="method-start">17149 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ReviewAndInformation.Respository.producerRepoTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void ReviewAndInformation.Respository.producerRepoTest.testUpdate() throws java.lang.Exceptio...)</span>
+                <span class="method-start">17150 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testUpdate</span>
+                <span class="method-start">17150 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void ReviewAndInformation.Respository.producerRepoTest.testUpdate() throws java.lang.Exceptio...)</span>
+                <span class="method-start">17167 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ReviewAndInformation.Respository.recordLabelRepoTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void ReviewAndInformation.Respository.recordLabelRepoTest.testUpdate() throws java.lang.Excep...)</span>
+                <span class="method-start">17169 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testUpdate</span>
+                <span class="method-start">17169 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void ReviewAndInformation.Respository.recordLabelRepoTest.testUpdate() throws java.lang.Excep...)</span>
+                <span class="method-start">17183 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ReviewAndInformation.Respository.singerRepoTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void ReviewAndInformation.Respository.singerRepoTest.testUpdate() throws java.lang.Exception)</span>
+                <span class="method-start">17184 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testUpdate</span>
+                <span class="method-start">17184 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void ReviewAndInformation.Respository.singerRepoTest.testUpdate() throws java.lang.Exception)</span>
+                <span class="method-start">17204 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ReviewAndInformation.Respository.GoToPlacesRepoTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void ReviewAndInformation.Respository.GoToPlacesRepoTest.testDelete() throws java.lang.Except...)</span>
+                <span class="method-start">17205 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDelete</span>
+                <span class="method-start">17206 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void ReviewAndInformation.Respository.GoToPlacesRepoTest.testDelete() throws java.lang.Except...)</span>
+                <span class="method-start">17251 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">17251 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ReviewAndInformation.Respository.cityInfoRepoTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void ReviewAndInformation.Respository.cityInfoRepoTest.testDelete() throws java.lang.Exceptio...)</span>
+                <span class="method-start">17251 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDelete</span>
+                <span class="method-start">17252 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void ReviewAndInformation.Respository.cityInfoRepoTest.testDelete() throws java.lang.Exceptio...)</span>
+                <span class="method-start">17272 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">17273 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ReviewAndInformation.Respository.dangerPlacesRepoTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void ReviewAndInformation.Respository.dangerPlacesRepoTest.testDelete() throws java.lang.Exce...)</span>
+                <span class="method-start">17273 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDelete</span>
+                <span class="method-start">17274 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void ReviewAndInformation.Respository.dangerPlacesRepoTest.testDelete() throws java.lang.Exce...)</span>
+                <span class="method-start">17297 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">17298 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ReviewAndInformation.Respository.directorRepoTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void ReviewAndInformation.Respository.directorRepoTest.testDelete() throws java.lang.Exceptio...)</span>
+                <span class="method-start">17298 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDelete</span>
+                <span class="method-start">17299 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void ReviewAndInformation.Respository.directorRepoTest.testDelete() throws java.lang.Exceptio...)</span>
+                <span class="method-start">17317 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">17318 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ReviewAndInformation.Respository.movieRepoTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void ReviewAndInformation.Respository.movieRepoTest.testDelete() throws java.lang.Exception)</span>
+                <span class="method-start">17318 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDelete</span>
+                <span class="method-start">17319 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void ReviewAndInformation.Respository.movieRepoTest.testDelete() throws java.lang.Exception)</span>
+                <span class="method-start">17342 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">17343 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ReviewAndInformation.Respository.musicTypeRepoTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void ReviewAndInformation.Respository.musicTypeRepoTest.testDelete() throws java.lang.Excepti...)</span>
+                <span class="method-start">17343 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDelete</span>
+                <span class="method-start">17344 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void ReviewAndInformation.Respository.musicTypeRepoTest.testDelete() throws java.lang.Excepti...)</span>
+                <span class="method-start">17370 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">17370 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ReviewAndInformation.Respository.placeMovieSetRepoTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void ReviewAndInformation.Respository.placeMovieSetRepoTest.testDelete() throws java.lang.Exc...)</span>
+                <span class="method-start">17372 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDelete</span>
+                <span class="method-start">17373 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void ReviewAndInformation.Respository.placeMovieSetRepoTest.testDelete() throws java.lang.Exc...)</span>
+                <span class="method-start">17393 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">17393 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ReviewAndInformation.Respository.producerRepoTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void ReviewAndInformation.Respository.producerRepoTest.testDelete() throws java.lang.Exceptio...)</span>
+                <span class="method-start">17395 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDelete</span>
+                <span class="method-start">17395 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void ReviewAndInformation.Respository.producerRepoTest.testDelete() throws java.lang.Exceptio...)</span>
+                <span class="method-start">17415 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">17415 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ReviewAndInformation.Respository.recordLabelRepoTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void ReviewAndInformation.Respository.recordLabelRepoTest.testDelete() throws java.lang.Excep...)</span>
+                <span class="method-start">17416 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDelete</span>
+                <span class="method-start">17417 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void ReviewAndInformation.Respository.recordLabelRepoTest.testDelete() throws java.lang.Excep...)</span>
+                <span class="method-start">17435 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">17436 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ReviewAndInformation.Respository.singerRepoTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void ReviewAndInformation.Respository.singerRepoTest.testDelete() throws java.lang.Exception)</span>
+                <span class="method-start">17436 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDelete</span>
+                <span class="method-start">17437 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void ReviewAndInformation.Respository.singerRepoTest.testDelete() throws java.lang.Exception)</span>
+                <span class="method-start">17456 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">17456 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

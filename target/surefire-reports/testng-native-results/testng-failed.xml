@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="ReviewAndInformation.Services.dangerPlacesServiceTest">
+        <methods>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="testGetCityInfo"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="testCreate"/>
+          <include name="setUp"/>
+          <include name="springTestContextAfterTestMethod"/>
+        </methods>
+      </class> <!-- ReviewAndInformation.Services.dangerPlacesServiceTest -->
+      <class name="ReviewAndInformation.Respository.placeMovieSetRepoTest">
+        <methods>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestMethod"/>
+        </methods>
+      </class> <!-- ReviewAndInformation.Respository.placeMovieSetRepoTest -->
+      <class name="ReviewAndInformation.Services.musicTypeServiceTest">
+        <methods>
+          <include name="testCreate"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestMethod"/>
+          <include name="testGetCityInfo"/>
+        </methods>
+      </class> <!-- ReviewAndInformation.Services.musicTypeServiceTest -->
+      <class name="ReviewAndInformation.Respository.singerRepoTest">
+        <methods>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestMethod"/>
+        </methods>
+      </class> <!-- ReviewAndInformation.Respository.singerRepoTest -->
+      <class name="ReviewAndInformation.Respository.producerRepoTest">
+        <methods>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestMethod"/>
+        </methods>
+      </class> <!-- ReviewAndInformation.Respository.producerRepoTest -->
+      <class name="ReviewAndInformation.Respository.GoToPlacesRepoTest">
+        <methods>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestMethod"/>
+        </methods>
+      </class> <!-- ReviewAndInformation.Respository.GoToPlacesRepoTest -->
+      <class name="ReviewAndInformation.Respository.recordLabelRepoTest">
+        <methods>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestMethod"/>
+        </methods>
+      </class> <!-- ReviewAndInformation.Respository.recordLabelRepoTest -->
+      <class name="ReviewAndInformation.Respository.directorRepoTest">
+        <methods>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestMethod"/>
+        </methods>
+      </class> <!-- ReviewAndInformation.Respository.directorRepoTest -->
+      <class name="ReviewAndInformation.Respository.dangerPlacesRepoTest">
+        <methods>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestMethod"/>
+        </methods>
+      </class> <!-- ReviewAndInformation.Respository.dangerPlacesRepoTest -->
+      <class name="ReviewAndInformation.Services.placeMovieSetServiceTest">
+        <methods>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="testGetCityInfo"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestMethod"/>
+          <include name="testCreate"/>
+        </methods>
+      </class> <!-- ReviewAndInformation.Services.placeMovieSetServiceTest -->
+      <class name="ReviewAndInformation.Respository.movieRepoTest">
+        <methods>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestMethod"/>
+        </methods>
+      </class> <!-- ReviewAndInformation.Respository.movieRepoTest -->
+      <class name="ReviewAndInformation.Services.cityInfoServiceTest">
+        <methods>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="testCreate"/>
+          <include name="testGetCityInfo"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- ReviewAndInformation.Services.cityInfoServiceTest -->
+      <class name="ReviewAndInformation.Services.singerServiceTest">
+        <methods>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestMethod"/>
+          <include name="testCreate"/>
+          <include name="testGetCityInfo"/>
+        </methods>
+      </class> <!-- ReviewAndInformation.Services.singerServiceTest -->
+      <class name="ReviewAndInformation.Respository.cityInfoRepoTest">
+        <methods>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestMethod"/>
+        </methods>
+      </class> <!-- ReviewAndInformation.Respository.cityInfoRepoTest -->
+      <class name="ReviewAndInformation.Services.GoToPlacesServiceTest">
+        <methods>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="testGetCityInfo"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestMethod"/>
+          <include name="testCreate"/>
+        </methods>
+      </class> <!-- ReviewAndInformation.Services.GoToPlacesServiceTest -->
+      <class name="ReviewAndInformation.Services.recordLabelServiceTest">
+        <methods>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestMethod"/>
+          <include name="testGetCityInfo"/>
+          <include name="testCreate"/>
+        </methods>
+      </class> <!-- ReviewAndInformation.Services.recordLabelServiceTest -->
+      <class name="ReviewAndInformation.Respository.musicTypeRepoTest">
+        <methods>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestMethod"/>
+        </methods>
+      </class> <!-- ReviewAndInformation.Respository.musicTypeRepoTest -->
+      <class name="ReviewAndInformation.Services.movieServiceTest">
+        <methods>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestMethod"/>
+          <include name="testGetCityInfo"/>
+          <include name="testCreate"/>
+        </methods>
+      </class> <!-- ReviewAndInformation.Services.movieServiceTest -->
+      <class name="ReviewAndInformation.Services.producerServiceTest">
+        <methods>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestMethod"/>
+          <include name="testGetCityInfo"/>
+          <include name="testCreate"/>
+        </methods>
+      </class> <!-- ReviewAndInformation.Services.producerServiceTest -->
+      <class name="ReviewAndInformation.Services.directorServiceTest">
+        <methods>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="testCreate"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestMethod"/>
+          <include name="testGetCityInfo"/>
+        </methods>
+      </class> <!-- ReviewAndInformation.Services.directorServiceTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

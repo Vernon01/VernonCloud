@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="10" time="19.935" errors="0" skipped="1" tests="61" name="TestSuite">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-7-openjdk-i386/jre/lib/i386"/>
+    <property name="java.vm.version" value="24.75-b04"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="ZA"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/student/Desktop/Verns_ReviewAndInfortmation"/>
+    <property name="java.runtime.version" value="1.7.0_75-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-7-openjdk-i386/jre/lib/endorsed"/>
+    <property name="os.arch" value="i386"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/i386:/usr/lib/i386-linux-gnu/jni:/lib/i386-linux-gnu:/usr/lib/i386-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="3.13.0-32-generic"/>
+    <property name="user.home" value="/home/student"/>
+    <property name="user.timezone" value="Africa/Johannesburg"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="user.name" value="student"/>
+    <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.x.jar"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="/usr/lib/jvm/java-7-openjdk-i386/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="1.7.0_75"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-7-openjdk-i386/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-7-openjdk-i386/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/share/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase time="0.24" classname="ReviewAndInformation.Respository.GoToPlacesRepoTest" name="testCreate"/>
+  <testcase time="0.001" classname="ReviewAndInformation.Services.GoToPlacesServiceTest" name="testCreate"/>
+  <testcase time="0.001" classname="ReviewAndInformation.Respository.cityInfoRepoTest" name="testCreate"/>
+  <testcase time="0.003" classname="ReviewAndInformation.Services.cityInfoServiceTest" name="testCreate"/>
+  <testcase time="0.009" classname="ReviewAndInformation.Respository.dangerPlacesRepoTest" name="testCreate"/>
+  <testcase time="0.012" classname="ReviewAndInformation.Services.dangerPlacesServiceTest" name="testCreate"/>
+  <testcase time="0.005" classname="ReviewAndInformation.Respository.directorRepoTest" name="testCreate"/>
+  <testcase time="0.021" classname="ReviewAndInformation.Services.directorServiceTest" name="testCreate"/>
+  <testcase time="0.078" classname="ReviewAndInformation.Respository.movieRepoTest" name="testCreate"/>
+  <testcase time="0.334" classname="ReviewAndInformation.Services.movieServiceTest" name="testCreate">
+    <failure message="could not execute statement; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement" type="org.springframework.dao.DataIntegrityViolationException">org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:255)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:221)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:417)
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:59)
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:213)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:147)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodIntercceptor.invoke(CrudMethodMetadataPostProcessor.java:122)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:207)
+	at com.sun.proxy.$Proxy72.save(Unknown Source)
+	at ReviewAndInformation.Services.movieServiceTest.testCreate(movieServiceTest.java:35)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:72)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:49)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:126)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:112)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:211)
+	at org.hibernate.id.IdentityGenerator$GetGeneratedKeysDelegate.executeAndExtract(IdentityGenerator.java:96)
+	at org.hibernate.id.insert.AbstractReturningDelegate.performInsert(AbstractReturningDelegate.java:58)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3032)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3558)
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:98)
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:492)
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:197)
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:181)
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:216)
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:324)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:288)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:194)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:125)
+	at org.hibernate.jpa.event.internal.core.JpaPersistEventListener.saveWithGeneratedId(JpaPersistEventListener.java:84)
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:206)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:149)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:75)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:811)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:784)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:789)
+	at org.hibernate.jpa.spi.AbstractEntityManagerImpl.persist(AbstractEntityManagerImpl.java:1181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:291)
+	at com.sun.proxy.$Proxy60.persist(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:407)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.executeMethodOn(RepositoryFactorySupport.java:416)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:401)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:373)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:281)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:136)
+	... 45 more
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry &apos;84&apos; for key &apos;UK_ok7xex41a4p0dr5unwpmdrbeu&apos;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389)
+	at com.mysql.jdbc.Util.getInstance(Util.java:372)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3835)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3771)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2435)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2582)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2535)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1911)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2145)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2081)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2066)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:208)
+	... 86 more
+</failure>
+    <system-out>Hibernate: insert into movie (category, length, name) values (?, ?, ?)
+2015-05-21 02:12:36.344  WARN 18375 --- [           main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1062, SQLState: 23000
+2015-05-21 02:12:36.345 ERROR 18375 --- [           main] o.h.engine.jdbc.spi.SqlExceptionHelper   : Duplicate entry &apos;84&apos; for key &apos;UK_ok7xex41a4p0dr5unwpmdrbeu&apos;
+2015-05-21 02:12:36.365  WARN 18375 --- [           main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 1062, SQLState: 23000
+2015-05-21 02:12:36.368  WARN 18375 --- [           main] o.h.engine.jdbc.spi.SqlExceptionHelper   : Duplicate entry &apos;84&apos; for key &apos;UK_ok7xex41a4p0dr5unwpmdrbeu&apos;
+</system-out>
+  </testcase>
+  <testcase time="0.072" classname="ReviewAndInformation.Respository.musicTypeRepoTest" name="testCreate"/>
+  <testcase time="0.023" classname="ReviewAndInformation.Services.musicTypeServiceTest" name="testCreate"/>
+  <testcase time="0.006" classname="ReviewAndInformation.Respository.placeMovieSetRepoTest" name="testCreate"/>
+  <testcase time="0.053" classname="ReviewAndInformation.Services.placeMovieSetServiceTest" name="testCreate"/>
+  <testcase time="0.169" classname="ReviewAndInformation.Respository.producerRepoTest" name="testCreate"/>
+  <testcase time="0.021" classname="ReviewAndInformation.Services.producerServiceTest" name="testCreate"/>
+  <testcase time="0.03" classname="ReviewAndInformation.Respository.recordLabelRepoTest" name="testCreate"/>
+  <testcase time="0.122" classname="ReviewAndInformation.Services.recordLabelServiceTest" name="testCreate"/>
+  <testcase time="0.054" classname="ReviewAndInformation.Respository.singerRepoTest" name="testCreate"/>
+  <testcase time="0.041" classname="ReviewAndInformation.Services.singerServiceTest" name="testCreate"/>
+  <testcase time="0.107" classname="ReviewAndInformation.Respository.GoToPlacesRepoTest" name="testRead"/>
+  <testcase time="0.501" classname="ReviewAndInformation.Services.GoToPlacesServiceTest" name="testGetCityInfo">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at ReviewAndInformation.Services.GoToPlacesServiceTest.testGetCityInfo(GoToPlacesServiceTest.java:42)
+</failure>
+    <system-out>Hibernate: select gotoplaces0_.id as id1_3_, gotoplaces0_.city_to_visit as city_to_2_3_ from go_to_places gotoplaces0_
+</system-out>
+  </testcase>
+  <testcase time="0.005" classname="ReviewAndInformation.Respository.cityInfoRepoTest" name="testRead"/>
+  <testcase time="0.008" classname="ReviewAndInformation.Services.cityInfoServiceTest" name="testGetCityInfo">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at ReviewAndInformation.Services.cityInfoServiceTest.testGetCityInfo(cityInfoServiceTest.java:50)
+</failure>
+    <system-out>Hibernate: select cityinfo0_.id as id1_0_, cityinfo0_.city_information as city_inf2_0_ from city_info cityinfo0_
+</system-out>
+  </testcase>
+  <testcase time="0.003" classname="ReviewAndInformation.Respository.dangerPlacesRepoTest" name="testRead"/>
+  <testcase time="0.013" classname="ReviewAndInformation.Services.dangerPlacesServiceTest" name="testGetCityInfo">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at ReviewAndInformation.Services.dangerPlacesServiceTest.testGetCityInfo(dangerPlacesServiceTest.java:50)
+</failure>
+    <system-out>Hibernate: select dangerplac0_.id as id1_1_, dangerplac0_.avoided_places as avoided_2_1_ from danger_places dangerplac0_
+</system-out>
+  </testcase>
+  <testcase time="0.013" classname="ReviewAndInformation.Respository.directorRepoTest" name="testRead"/>
+  <testcase time="0.008" classname="ReviewAndInformation.Services.directorServiceTest" name="testGetCityInfo">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at ReviewAndInformation.Services.directorServiceTest.testGetCityInfo(directorServiceTest.java:44)
+</failure>
+    <system-out>Hibernate: select director0_.id as id1_2_, director0_.age as age2_2_, director0_.name as name3_2_, director0_.years_directing as years_di4_2_ from director director0_
+</system-out>
+  </testcase>
+  <testcase time="0.006" classname="ReviewAndInformation.Respository.movieRepoTest" name="testRead"/>
+  <testcase time="0.007" classname="ReviewAndInformation.Services.movieServiceTest" name="testGetCityInfo">
+    <skipped/>
+  </testcase>
+  <testcase time="0.015" classname="ReviewAndInformation.Respository.musicTypeRepoTest" name="testRead"/>
+  <testcase time="0.003" classname="ReviewAndInformation.Services.musicTypeServiceTest" name="testGetCityInfo">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at ReviewAndInformation.Services.musicTypeServiceTest.testGetCityInfo(musicTypeServiceTest.java:42)
+</failure>
+    <system-out>Hibernate: select musictype0_.id as id1_5_, musictype0_.rock as rock2_5_ from music_type musictype0_
+</system-out>
+  </testcase>
+  <testcase time="0.006" classname="ReviewAndInformation.Respository.placeMovieSetRepoTest" name="testRead"/>
+  <testcase time="0.009" classname="ReviewAndInformation.Services.placeMovieSetServiceTest" name="testGetCityInfo">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at ReviewAndInformation.Services.placeMovieSetServiceTest.testGetCityInfo(placeMovieSetServiceTest.java:42)
+</failure>
+    <system-out>Hibernate: select placemovie0_.id as id1_6_, placemovie0_.city_directed_in as city_dir2_6_ from place_movie_set placemovie0_
+</system-out>
+  </testcase>
+  <testcase time="0" classname="ReviewAndInformation.Respository.producerRepoTest" name="testRead"/>
+  <testcase time="0.009" classname="ReviewAndInformation.Services.producerServiceTest" name="testGetCityInfo">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at ReviewAndInformation.Services.producerServiceTest.testGetCityInfo(producerServiceTest.java:44)
+</failure>
+    <system-out>Hibernate: select producer0_.id as id1_7_, producer0_.age as age2_7_, producer0_.name as name3_7_, producer0_.years_producing as years_pr4_7_ from producer producer0_
+</system-out>
+  </testcase>
+  <testcase time="0.008" classname="ReviewAndInformation.Respository.recordLabelRepoTest" name="testRead"/>
+  <testcase time="0.018" classname="ReviewAndInformation.Services.recordLabelServiceTest" name="testGetCityInfo">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at ReviewAndInformation.Services.recordLabelServiceTest.testGetCityInfo(recordLabelServiceTest.java:42)
+</failure>
+    <system-out>Hibernate: select recordlabe0_.id as id1_8_, recordlabe0_.label as label2_8_ from record_label recordlabe0_
+</system-out>
+  </testcase>
+  <testcase time="0.005" classname="ReviewAndInformation.Respository.singerRepoTest" name="testRead"/>
+  <testcase time="0.016" classname="ReviewAndInformation.Services.singerServiceTest" name="testGetCityInfo">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at ReviewAndInformation.Services.singerServiceTest.testGetCityInfo(singerServiceTest.java:42)
+</failure>
+    <system-out>Hibernate: select singer0_.id as id1_9_, singer0_.singing as singing2_9_ from singer singer0_
+</system-out>
+  </testcase>
+  <testcase time="0.155" classname="ReviewAndInformation.Respository.GoToPlacesRepoTest" name="testUpdate"/>
+  <testcase time="0.024" classname="ReviewAndInformation.Respository.cityInfoRepoTest" name="testUpdate"/>
+  <testcase time="0.018" classname="ReviewAndInformation.Respository.dangerPlacesRepoTest" name="testUpdate"/>
+  <testcase time="0.025" classname="ReviewAndInformation.Respository.directorRepoTest" name="testUpdate"/>
+  <testcase time="0.057" classname="ReviewAndInformation.Respository.movieRepoTest" name="testUpdate"/>
+  <testcase time="0.014" classname="ReviewAndInformation.Respository.musicTypeRepoTest" name="testUpdate"/>
+  <testcase time="0.015" classname="ReviewAndInformation.Respository.placeMovieSetRepoTest" name="testUpdate"/>
+  <testcase time="0.017" classname="ReviewAndInformation.Respository.producerRepoTest" name="testUpdate"/>
+  <testcase time="0.012" classname="ReviewAndInformation.Respository.recordLabelRepoTest" name="testUpdate"/>
+  <testcase time="0.02" classname="ReviewAndInformation.Respository.singerRepoTest" name="testUpdate"/>
+  <testcase time="0.044" classname="ReviewAndInformation.Respository.GoToPlacesRepoTest" name="testDelete"/>
+  <testcase time="0.02" classname="ReviewAndInformation.Respository.cityInfoRepoTest" name="testDelete"/>
+  <testcase time="0.023" classname="ReviewAndInformation.Respository.dangerPlacesRepoTest" name="testDelete"/>
+  <testcase time="0.018" classname="ReviewAndInformation.Respository.directorRepoTest" name="testDelete"/>
+  <testcase time="0.023" classname="ReviewAndInformation.Respository.movieRepoTest" name="testDelete"/>
+  <testcase time="0.024" classname="ReviewAndInformation.Respository.musicTypeRepoTest" name="testDelete"/>
+  <testcase time="0.02" classname="ReviewAndInformation.Respository.placeMovieSetRepoTest" name="testDelete"/>
+  <testcase time="0.019" classname="ReviewAndInformation.Respository.producerRepoTest" name="testDelete"/>
+  <testcase time="0.017" classname="ReviewAndInformation.Respository.recordLabelRepoTest" name="testDelete"/>
+  <testcase time="0.019" classname="ReviewAndInformation.Respository.singerRepoTest" name="testDelete"/>
+  <testcase time="0.002" classname="ReviewAndInformation.AppTest" name="testApp on testApp"/>
+</testsuite>
